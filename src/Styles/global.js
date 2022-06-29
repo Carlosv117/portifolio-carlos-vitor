@@ -6,11 +6,11 @@ const GlobalStyle = createGlobalStyle`
     --White: #FFFFFF;
     --White-1: #adadad;
     --Grey-1: #00000017;
-    --Color-primary: #003399;
-    --Color-primary-focus: #2691d9;
-    --Color-primary-negative: #22AAE3;
+    --Color-primary: #e00e0e;
+    --Color-primary-focus: #e00e0ec2;
+    --Color-primary-negative: #770000;
     --Black-0: #000000;
-    --Black-1: #40454a;
+    --Black-1: #171717;
     --Sucess: #3FE864;
     --Negative: #E83F5B;
 }
