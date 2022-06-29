@@ -1,0 +1,8 @@
+
+const Contact = () => {
+
+    return(
+        <>
+        </>
+    )
+}
