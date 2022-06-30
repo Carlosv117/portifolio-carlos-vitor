@@ -3,19 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mui/lab": "^5.0.0-alpha.84",
+    "@mui/material": "^5.8.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "@mui/lab": "^5.0.0-alpha.84",
-    "@mui/material": "^5.8.2",
     "framer-motion": "4.1.17",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
     "react-hook-form": "^7.28.0",
     "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.1",
     "react-toastify": "^8.2.0",
     "styled-components": "^5.3.5",
+    "typeit-react": "^2.5.1-alpha.0",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
