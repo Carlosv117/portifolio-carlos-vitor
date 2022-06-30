@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
     --Color-primary-focus: #e00e0ec2;
     --Color-primary-negative: #770000;
     --Black-0: #000000;
-    --Black-1: #171717;
+    --Black-1: #111111;
     --Sucess: #3FE864;
     --Negative: #E83F5B;
 }
