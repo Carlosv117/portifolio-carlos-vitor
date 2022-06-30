@@ -17,7 +17,7 @@ const Home = () => {
             <Header/>
             <Main>
                 <section id="home">
-                    <video id="back" src={background} autoPlay loop/>
+                    <video id="back" src={background} autoPlay loop preload="auto"/>
                     <div>
                         <div id="text">
                             <h1>Carlos Vitor Cerqueira</h1>
