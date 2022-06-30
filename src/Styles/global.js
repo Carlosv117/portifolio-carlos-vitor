@@ -66,6 +66,9 @@ textarea:focus {
 body {
 	font-family: 'Comfortaa', sans-serif;
 }
+h1, h2, h3, p, span, a{
+    color: var(--White);
+}
 h1 {
     font-weight: 700;
     font-size: 18px;
