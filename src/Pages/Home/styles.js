@@ -72,4 +72,34 @@ export const Main = styled.main`
         }
 
     }
+
+    #about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--Black-1);
+
+        #video{
+            padding: 0;
+            
+            video{
+                width: 100%;
+                max-width: 400px;
+            }
+        }
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 20px;
+            max-width: 400px;
+            
+            p{
+                text-align: -webkit-center;
+                text-align: center;
+            }
+        }
+
+}
 `

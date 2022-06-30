@@ -1,16 +1,14 @@
 import Header from "../../Components/Header"
 import { Main } from "./styles"
-import background from "../../img/backgrounds/background.mp4"
 import TypeIt from "typeit-react"
-// import {useNavigate} from "react-router-dom"
+import background from "../../img/backgrounds/background.mp4"
+import space from "../../img/backgrounds/spaceLogo.mp4"
 import cel from "../../img/icon/Cel.png"
 import github from "../../img/icon/github (1).png"
 import linkedin from "../../img/icon/linkedin (1).png"
-import { Link } from "react-router-dom"
+import Footer from "../../Components/Footer"
 
 const Home = () => {
-
-    // const navigate = useNavigate()
     
     return(
         <>
@@ -53,7 +51,23 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+                <section id="about">
+                    <div id="video">
+                        <video id="back" src={space} autoPlay loop muted/>
+                    </div>
+                    <div>
+                        <span>SOBRE MIM</span>
+                        <h1>Carlos Vitor</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nulla lacinia mi sed scelerisque pharetra. Aliquam sit 
+                            amet enim quis turpis consectetur euismod. Fusce tincidunt 
+                            nulla at ex luctus, non interdum ex feugiat. Duis risus eros,
+                             efficitur sit amet erat vitae, hendrerit volutpat dui. 
+                             Quisque iaculis metus id</p>
+                    </div>
+                </section>
             </Main>
+            <Footer/>
         </>
     )
 }
