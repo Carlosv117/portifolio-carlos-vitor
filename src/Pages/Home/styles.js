@@ -80,7 +80,7 @@ export const Main = styled.main`
         background-color: var(--Black-1);
 
         #video{
-            padding: 0;
+            padding: 20px 0;
             
             video{
                 width: 100%;
@@ -91,13 +91,18 @@ export const Main = styled.main`
         div{
             display: flex;
             flex-direction: column;
-            align-items: center;
-            padding: 0 20px;
+            align-items: flex-start;
+            padding: 20px 20px;
             max-width: 400px;
+
+            span{
+                color: var(--Color-primary);
+                font-weight: 700;
+                font-size: 14px;
+            }
             
-            p{
-                text-align: -webkit-center;
-                text-align: center;
+            h1{
+                padding: 15px 0;
             }
         }
 

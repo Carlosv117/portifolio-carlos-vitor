@@ -57,7 +57,7 @@ const Home = () => {
                     </div>
                     <div>
                         <span>SOBRE MIM</span>
-                        <h1>Carlos Vitor</h1>
+                        <h1>Carlos Vitor Cerqueira</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Nulla lacinia mi sed scelerisque pharetra. Aliquam sit 
                             amet enim quis turpis consectetur euismod. Fusce tincidunt 
