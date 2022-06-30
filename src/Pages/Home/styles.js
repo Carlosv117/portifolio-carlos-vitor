@@ -90,6 +90,7 @@ export const Main = styled.main`
             section{
                 width: 100%;
                 max-width: 600px;
+                padding: 20px 0;
             }
 
             #about{
@@ -176,6 +177,10 @@ export const Main = styled.main`
                 div{
                     max-width: 600px;
                 }
+            }
+
+            #projects{
+
             }
 
     }

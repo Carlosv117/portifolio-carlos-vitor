@@ -10,6 +10,8 @@ import front from "../../img/icon/front.png"
 import back from "../../img/icon/back.png"
 import Footer from "../../Components/Footer"
 import CarroselCertificate from "../../Components/CarroselCertificate"
+import CarroselProjects from "../../Components/CarroselProjects"
+import { Contact } from "../../Components/Form"
 
 const Home = () => {
     
@@ -102,7 +104,15 @@ const Home = () => {
                         <h1>Qualificações</h1>
                         <CarroselCertificate/>
                     </section>
+                    <section id="projects">
+                        <h1>Projetos</h1>
+                        <CarroselProjects/>
+                    </section>
                 </div>
+                <section id="contact">
+                    <h1>Contato</h1>
+                    <Contact/>
+                </section>
             </Main>
             <Footer/>
         </>
