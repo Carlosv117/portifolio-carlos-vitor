@@ -1,8 +1,8 @@
-/* eslint-disable no-unused-vars */
 import { useState } from "react"
 import { HeaderDesktop, HeaderMobile } from "./styles"
 import { motion } from "framer-motion";
 import logo from "../../img/logos/Logo.png"
+import logo2 from "../../img/logos/Logo2.png"
 import hamburguerMenu from "../../img/menu/menu.png"
 import exit from "../../img/menu/close.png"
 
@@ -16,6 +16,9 @@ const Header = () => {
             <HeaderMobile>
 
                 <figure id="logo">
+                    <img src={logo2} alt=""/>
+                </figure>
+                <figure id="logo2">
                     <img src={logo} alt=""/>
                 </figure>
 
@@ -76,6 +79,9 @@ const Header = () => {
 
             <HeaderDesktop>
                 <figure id="logo">
+                    <img src={logo2} alt=""/>
+                </figure>
+                <figure id="logo2">
                     <img src={logo} alt=""/>
                 </figure>
                 <nav>
