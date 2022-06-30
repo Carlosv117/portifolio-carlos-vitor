@@ -79,8 +79,52 @@ export const HeaderMobile = styled.header`
             }
         }
     }
+
+    @media (min-width: 768px) {
+        display: none;
+    }
 `
 
 export const HeaderDesktop = styled.header`
+    display: none;    
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--Black-1);
+    padding-right: 20px;
 
+    figure{
+        width: 80px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    nav{
+        a{
+                position: relative;
+                color: var(--White);
+                text-decoration: none;
+                margin: 0 10px;
+                padding: 0px 15px;
+                font-size: 16px;
+            }
+            a:after{
+                content: "";
+                position: absolute;
+                background-color: var(--Color-primary);
+                height: 3px;
+                width: 0;
+                left: 0;
+                bottom: -10px;
+                transition: 0.5s;
+            }
+            a:hover:after{
+                width: 100%;
+            }
+    }
+
+    @media (min-width: 768px) {
+        display: flex;
+    }
 `

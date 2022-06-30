@@ -62,11 +62,12 @@ const Header = () => {
                         />
                         </figure>
                         <nav>
-                            <a href="#Sobre">Sobre</a>
-                            <a href="#Tecnologias">Tecnologias</a>
-                            <a href="#Qualificações">Qualificações</a>
-                            <a href="#Projetos">Projetos</a>
-                            <a href="#Contato">Contato</a>
+                            <a href="#home">Home</a>
+                            <a href="#about">Sobre</a>
+                            <a href="#tecnologies">Tecnologias</a>
+                            <a href="#qualifications">Qualificações</a>
+                            <a href="#projects">Projetos</a>
+                            <a href="#contact">Contato</a>
                         </nav>
                     </motion.div>
                 )}
@@ -74,9 +75,18 @@ const Header = () => {
             </HeaderMobile>
 
             <HeaderDesktop>
-
+                <figure id="logo">
+                    <img src={logo} alt=""/>
+                </figure>
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#tecnologies">Tecnologias</a>
+                    <a href="#qualifications">Qualificações</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#contact">Contato</a>
+                </nav>
             </HeaderDesktop>
-            <h1>Oi</h1>
         </>
     )
 }
