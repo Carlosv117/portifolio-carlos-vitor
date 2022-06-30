@@ -16,9 +16,6 @@ const Header = () => {
             <HeaderMobile>
 
                 <figure id="logo">
-                    <img src={logo2} alt=""/>
-                </figure>
-                <figure id="logo2">
                     <img src={logo} alt=""/>
                 </figure>
 
@@ -79,9 +76,6 @@ const Header = () => {
 
             <HeaderDesktop>
                 <figure id="logo">
-                    <img src={logo2} alt=""/>
-                </figure>
-                <figure id="logo2">
                     <img src={logo} alt=""/>
                 </figure>
                 <nav>

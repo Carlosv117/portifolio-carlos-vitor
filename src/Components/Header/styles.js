@@ -4,36 +4,16 @@ export const HeaderMobile = styled.header`
     display: flex;    align-items: center;
     justify-content: space-between;
     background-color: var(--Black-1);
-    padding: 0 20px;
+    padding-right: 20px;
     height: 80px;
 
     #logo{
-        width: 65px;
-        height: 65px;
-        background-color: var(--Color-primary);
-        border-radius: 90px;
-        text-align-last: center;
-
-        img{
-            width: 90%;
-            height: 100%;
-        }
-    }
-
-    #logo2{
-        width: 65px;
-        height: 65px;
-        position: fixed;
-        background-color: var(--Color-primary);
-        border-radius: 90px;
+        width: 80px;
+        cursor: pointer;
 
         img{
             width: 100%;
         }
-    }
-
-    #logo2:hover{
-        opacity: 0;
     }
 
     figure{
@@ -115,34 +95,12 @@ export const HeaderDesktop = styled.header`
     padding-right: 20px;
 
     #logo{
-        width: 65px;
-        height: 65px;
-        background-color: var(--Color-primary);
-        border-radius: 90px;
-        text-align-last: center;
-        cursor: pointer;
-
-        img{
-            width: 90%;
-            height: 100%;
-        }
-    }
-
-    #logo2{
-        width: 65px;
-        height: 65px;
-        position: fixed;
-        background-color: var(--Color-primary);
-        border-radius: 90px;
+        width: 80px;
         cursor: pointer;
 
         img{
             width: 100%;
         }
-    }
-
-    #logo2:hover{
-        opacity: 0;
     }
 
     nav{
