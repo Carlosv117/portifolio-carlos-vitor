@@ -1,7 +1,15 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
+    background-color: var(--Black-1);
     
+    h1{
+        color: var(--Color-primary);
+        font-weight: bold;
+        font-size: 26px;
+        align-self: flex-start;
+        padding-left: 20px;
+    }
 
     #home{
 
@@ -34,7 +42,7 @@ export const Main = styled.main`
                 height: 100px;
                 margin-bottom: 50px;
     
-                h1{
+                h2{
                     font-size: 22px;
                 }
     
@@ -77,7 +85,15 @@ export const Main = styled.main`
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: var(--Black-1);
+        padding-top: 40px;
+
+        /* h1{
+            color: var(--Color-primary);
+            font-weight: bold;
+            font-size: 26px;
+            align-self: flex-start;
+            padding-left: 20px;
+        } */
 
         #video{
             padding: 20px 0;
@@ -94,17 +110,49 @@ export const Main = styled.main`
             align-items: flex-start;
             padding: 20px 20px;
             max-width: 400px;
-
-            span{
-                color: var(--Color-primary);
-                font-weight: 700;
-                font-size: 14px;
-            }
             
-            h1{
+            h2{
                 padding: 15px 0;
             }
         }
 
-}
+    }
+
+    #tecnologies{
+        padding: 20px 20px;
+
+        h1{
+            padding-left: 0;
+            padding-bottom: 30px;
+        }
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: var(--Grey-2);
+            border-radius: 20px;
+            margin-bottom: 20px;
+            padding: 10px 0;
+
+            figure{
+                width: 170px;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+            h3{
+                font-weight: bold;
+                font-size: 24px;
+                padding: 10px 0;
+            }
+
+            span{
+                font-size: 14px;
+                padding: 3px 0;
+            }
+        }
+    }
 `

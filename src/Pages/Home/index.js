@@ -6,6 +6,8 @@ import space from "../../img/backgrounds/spaceLogo.mp4"
 import cel from "../../img/icon/Cel.png"
 import github from "../../img/icon/github (1).png"
 import linkedin from "../../img/icon/linkedin (1).png"
+import front from "../../img/icon/front.png"
+import back from "../../img/icon/back.png"
 import Footer from "../../Components/Footer"
 
 const Home = () => {
@@ -18,7 +20,7 @@ const Home = () => {
                     <video id="back" src={background} autoPlay loop muted/>
                     <div>
                         <div id="text">
-                            <h1>Carlos Vitor Cerqueira</h1>
+                            <h2>Carlos Vitor Cerqueira</h2>
                             <TypeIt
                                 options={{loop: true}}
                                 getBeforeInit={(instance) => {
@@ -52,18 +54,45 @@ const Home = () => {
                     </div>
                 </section>
                 <section id="about">
+                    <h1>Sobre</h1>
                     <div id="video">
                         <video id="back" src={space} autoPlay loop muted/>
                     </div>
                     <div>
-                        <span>SOBRE MIM</span>
-                        <h1>Carlos Vitor Cerqueira</h1>
+                        <h2>Carlos Vitor Cerqueira</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Nulla lacinia mi sed scelerisque pharetra. Aliquam sit 
                             amet enim quis turpis consectetur euismod. Fusce tincidunt 
                             nulla at ex luctus, non interdum ex feugiat. Duis risus eros,
                              efficitur sit amet erat vitae, hendrerit volutpat dui. 
                              Quisque iaculis metus id</p>
+                    </div>
+                </section>
+                <section id="tecnologies">
+                    <h1>Tecnologias</h1>
+                    <div>
+                        <figure>
+                            <img src={front} alt=""/>
+                        </figure>
+                        <h3>Front-end</h3>
+                        <span>React</span>
+                        <span>Javascript</span>
+                        <span>Typescript</span>
+                        <span>API REST</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src={back} alt=""/>
+                        </figure>
+                        <h3>Back-end</h3>
+                        <span>Python</span>
+                        <span>Node</span>
+                        <span>Express</span>
+                        <span>Django</span>
+                        <span>PostgreSQL</span>
+                        <span>Docker</span>
                     </div>
                 </section>
             </Main>
