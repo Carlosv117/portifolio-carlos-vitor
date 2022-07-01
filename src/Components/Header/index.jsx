@@ -21,7 +21,7 @@ const Header = () => {
             <HeaderMobile>
 
                 <figure id="logo">
-                    <Link
+                    <Link onClick={() => menuClick(setMenu, setMenuExit)}
                     activeClass="active"
                     to="home"
                     spy={true}
@@ -75,7 +75,7 @@ const Header = () => {
                         />
                         </figure>
                         <nav>
-                            <Link
+                            <Link onClick={() => menuClick(setMenu, setMenuExit)}
                                 activeClass="active"
                                 to="home"
                                 spy={true}
