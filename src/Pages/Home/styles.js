@@ -523,38 +523,42 @@ export const Main = styled.main`
             height: 980px;
         }
 
-        .MuiBox-root{
+        #form{
             max-width: 700px;
 
-            button{
+            .MuiBox-root{
+
+                button{
+                    width: 200px;
+                    height: 50px;
+                }
+            }
+
+            .css-6m3mwv-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.MuiLoadingButton-loading{
                 width: 200px;
                 height: 50px;
             }
-        }
 
-        .css-6m3mwv-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.MuiLoadingButton-loading{
-            width: 200px;
-            height: 50px;
-        }
+            .css-13rlij2-MuiFormLabel-root-MuiInputLabel-root, .css-rw1vm2-MuiInputBase-root-MuiOutlinedInput-root, .css-1xngoem-MuiFormLabel-root-MuiInputLabel-root{
+                font-size: 1.5rem;
+            }
 
-        .css-13rlij2-MuiFormLabel-root-MuiInputLabel-root, .css-rw1vm2-MuiInputBase-root-MuiOutlinedInput-root, .css-1xngoem-MuiFormLabel-root-MuiInputLabel-root{
-            font-size: 1.5rem;
-        }
+            .css-wioham, .css-76sab1{
+                font-size: 1.5rem;
+            }
 
-        .css-wioham, .css-76sab1{
-            font-size: 1.5rem;
-        }
+            .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+                padding: 30.5px 14px;
+            }
 
-        .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
-            padding: 30.5px 14px;
-        }
+            .css-13rlij2-MuiFormLabel-root-MuiInputLabel-root{
+                line-height: 2.1375em;
+            }
 
-        .css-13rlij2-MuiFormLabel-root-MuiInputLabel-root{
-            line-height: 2.1375em;
-        }
+            .css-76sab1{
+                height: 2.1375em;
+            }
 
-        .css-76sab1{
-            height: 2.1375em;
         }
 
     }

@@ -27,7 +27,7 @@ export const Contact = () => {
     return (
 
         <Container>
-            <Box component = 'form'
+            <Box id='form' component = 'form'
             ref={form}
             onSubmit = {sendEmail}
             sx={{ marginTop: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
