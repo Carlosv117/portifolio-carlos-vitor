@@ -16,6 +16,7 @@ export const FooteR = styled.footer`
 
         figure{
             width: 30px;
+            cursor: pointer;
 
             img{
                 width: 100%;
