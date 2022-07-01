@@ -69,12 +69,10 @@ const Home = () => {
                             </div>
                             <div>
                                 <h2>Carlos Vitor Cerqueira</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Nulla lacinia mi sed scelerisque pharetra. Aliquam sit 
-                                    amet enim quis turpis consectetur euismod. Fusce tincidunt 
-                                    nulla at ex luctus, non interdum ex feugiat. Duis risus eros,
-                                    efficitur sit amet erat vitae, hendrerit volutpat dui. 
-                                    Quisque iaculis metus id</p>
+                                <p>Estou em busca de um emprego na área de Desenvolvedor e, 
+                                    através disso, complementar o que venho aprendendo e evoluir 
+                                    na empresa em que estiver atuando e contribuir o máximo possível. 
+                                    Sou desenvolvedor Full-stack formado pela Kenzie Academy Brasil.</p>
                             </div>
                         </div>
                     </section>
