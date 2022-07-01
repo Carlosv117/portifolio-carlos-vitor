@@ -263,6 +263,11 @@ export const Main = styled.main`
     .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
         color: var(--White);
         width: 90%;
+        
+    }
+
+    .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+        -webkit-tap-highlight-color: white
     }
 
     .MuiBox-root{
@@ -386,7 +391,7 @@ export const Main = styled.main`
             justify-content: flex-start;
 
             h1{
-                font-size: 55px;
+                font-size: 45px;
             }
         }
 
