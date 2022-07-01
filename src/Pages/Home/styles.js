@@ -327,6 +327,7 @@ export const Main = styled.main`
 
             div{
                 flex-direction: row;
+                padding-top: 50px;
 
                 #text, #phone{
                     margin: 0 20px;
@@ -347,6 +348,7 @@ export const Main = styled.main`
 
                 #phone{
                     flex-direction: column;
+                    margin-top: 30px;
                 }
             }
         }

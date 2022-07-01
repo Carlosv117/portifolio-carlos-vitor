@@ -1,3 +1,4 @@
+import React, { useEffect } from "react"
 import Header from "../../Components/Header"
 import { Main } from "./styles"
 import TypeIt from "typeit-react"
@@ -12,8 +13,14 @@ import Footer from "../../Components/Footer"
 import CarroselCertificate from "../../Components/CarroselCertificate"
 import CarroselProjects from "../../Components/CarroselProjects"
 import { Contact } from "../../Components/Form"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const Home = () => {
+
+    useEffect(() => {
+        Aos.init({duration: 2000})
+    }, [])
     
     return(
         <>
@@ -22,7 +29,7 @@ const Home = () => {
                 <section className="home">
                         <video id="back" src={background} autoPlay loop muted/>
                         <div>
-                            <div id="text">
+                            <div id="text" data-aos="fade-down">
                                 <div className="h1">
                                     <h2>Carlos Vitor Cerqueira</h2>
                                 </div>
@@ -39,7 +46,7 @@ const Home = () => {
                                     }}
                                 />
                             </div>
-                            <div id="phone">
+                            <div id="phone" data-aos="fade-up">
                                 <figure>
                                     <img src={cel} alt=""/>
                                 </figure>
@@ -64,10 +71,10 @@ const Home = () => {
                             <h1>Sobre</h1>
                         </div>
                         <div>
-                            <div id="video">
+                            <div id="video" data-aos="fade-right">
                                 <video id="back" src={space} autoPlay loop muted/>
                             </div>
-                            <div>
+                            <div data-aos="zoom-in">
                                 <h2>Carlos Vitor Cerqueira</h2>
                                 <p>Estou em busca de um emprego na área de Desenvolvedor e, 
                                     através disso, complementar o que venho aprendendo e evoluir 
@@ -84,7 +91,7 @@ const Home = () => {
                             <h1>Tecnologias</h1>
                         </div>
                         <div>
-                            <div>
+                            <div data-aos="flip-right">
                                 <figure>
                                     <img src={front} alt=""/>
                                 </figure>
@@ -96,7 +103,7 @@ const Home = () => {
                                 <span>HTML5</span>
                                 <span>CSS3</span>
                             </div>
-                            <div>
+                            <div data-aos="flip-left">
                                 <figure>
                                     <img src={back} alt=""/>
                                 </figure>

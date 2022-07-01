@@ -1,11 +1,17 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from "react-toastify";
 import { Button } from './styles';
 import { Box, Container, TextField } from '@mui/material';
 import { LoadingButton } from '@mui/lab';
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 export const Contact = () => {
+
+    useEffect(() => {
+        Aos.init({duration: 2000})
+    }, [])
 
     const form = useRef();
     const [loading, setLoading] = useState(true)
@@ -26,7 +32,7 @@ export const Contact = () => {
 
     return (
 
-        <Container>
+        <Container data-aos="flip-left">
             <Box id='form' component = 'form'
             ref={form}
             onSubmit = {sendEmail}

@@ -152,7 +152,7 @@ export const HeaderDesktop = styled.header`
     }
 
     @media (min-width: 1024px) {
-
+        
         padding-right: 40px;
         padding-left: 20px;
     }

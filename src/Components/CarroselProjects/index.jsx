@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import uBeer from "../../img/projects/uBeer.png"
@@ -8,11 +8,17 @@ import NuKenzie from "../../img/projects/NuKenzie.png"
 import BurguerKenzie from "../../img/projects/BurguerKenzie.png"
 import KenziePet from "../../img/projects/KenziePet.png"
 import KMDB from "../../img/projects/KMDB.png"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 export default function CarroselProjects() {
+
+    useEffect(() => {
+        Aos.init({duration: 2000})
+    }, [])
     
     return (
-        <div>
+        <div data-aos="flip-right">
             <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}>
                 <div>
                     <a href="https://github.com/Carlosv117/ubeer" target="_blank" rel="noopener noreferrer">
