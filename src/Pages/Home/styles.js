@@ -200,7 +200,15 @@ export const Main = styled.main`
             align-items: center;
 
             h1{
+                z-index: 1;
+                padding-top: 40px;
+            }
 
+            video{
+                width: 100%;
+                position: absolute;
+                height: 600px;
+                object-fit: cover;
             }
         }
 
@@ -219,6 +227,10 @@ export const Main = styled.main`
         border-radius: 7px;
         transition: 0.5s;
         position: relative;
+    }
+    .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+        color: var(--White);
+        width: 90%;
     }
 
     .MuiBox-root{

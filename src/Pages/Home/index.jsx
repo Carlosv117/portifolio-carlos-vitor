@@ -110,6 +110,7 @@ const Home = () => {
                 </div>
                 <section className="contact">
                     <h1>Contato</h1>
+                    <video id="backContact" src={background} autoPlay loop muted/>
                     <Contact/>
                 </section>
             </Main>
