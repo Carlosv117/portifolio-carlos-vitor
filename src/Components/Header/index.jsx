@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import logo from "../../img/logos/Logo.png"
 import hamburguerMenu from "../../img/menu/menu.png"
 import exit from "../../img/menu/close.png"
+import { Link} from "react-scroll";
 
 const Header = () => {
 
@@ -20,7 +21,15 @@ const Header = () => {
             <HeaderMobile>
 
                 <figure id="logo">
-                    <img src={logo} alt=""/>
+                    <Link
+                    activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1500}>
+                        <img src={logo} alt=""/>
+                    </Link>
                 </figure>
 
                 {menuExit && (
@@ -48,7 +57,7 @@ const Header = () => {
                     animate={{ x: 0 ,opacity: 1 }}
                     exit={{ opacity: 0 }}
                     transition={{ duration: 0.7 }}>
-                        <figure onClick={() => menuClick(setMenu, setMenuExit)}>
+                        <figure onClick={() => setMenu(false)}>
                             <motion.img onClick={() => setMenuExit(true)} src={exit} alt="Menu"
                             initial={{ scale: 0 }}
                             animate={{ rotate: 180, scale: 1 }}
@@ -66,15 +75,51 @@ const Header = () => {
                         />
                         </figure>
                         <nav>
-                            <a href="#home" onClick={() => menuClick(setMenu, setMenuExit)}>Home</a>
-                            <a href="#about" onClick={() => menuClick(setMenu, setMenuExit)}>Sobre</a>
-                            <a href="#tecnologies" onClick={() => menuClick(setMenu, setMenuExit)}>Tecnologias</a>
-                            <a href="#qualifications" onClick={() => menuClick(setMenu, setMenuExit)}>Qualificações</a>
-                            <a href="#projects" onClick={() => menuClick(setMenu, setMenuExit)}>Projetos</a>
-                            <a href="#contact" onClick={() => menuClick(setMenu, setMenuExit)}>Contato</a>
+                            <Link
+                                activeClass="active"
+                                to="home"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={1500}>Home</Link>
+                            <Link onClick={() => menuClick(setMenu, setMenuExit)}
+                                activeClass="active"
+                                to="about"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={1500}>Sobre</Link>
+                            <Link onClick={() => menuClick(setMenu, setMenuExit)}
+                                activeClass="active"
+                                to="tecnologies"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={1500}>Tecnologias</Link>
+                            <Link onClick={() => menuClick(setMenu, setMenuExit)}
+                                activeClass="active"
+                                to="qualifications"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={1500}>Qualificações</Link>
+                            <Link onClick={() => menuClick(setMenu, setMenuExit)}
+                                activeClass="active"
+                                to="projects"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={1500}>Projetos</Link>
+                            <Link onClick={() => menuClick(setMenu, setMenuExit)}
+                                activeClass="active"
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={1500}>Contato</Link>
                         </nav>
                     </motion.div>
-                )}
+            )}
                 
             </HeaderMobile>
 
@@ -83,12 +128,49 @@ const Header = () => {
                     <img src={logo} alt=""/>
                 </figure>
                 <nav>
-                    <a href="#home">Home</a>
-                    <a href="#about">Sobre</a>
-                    <a href="#tecnologies">Tecnologias</a>
-                    <a href="#qualifications">Qualificações</a>
-                    <a href="#projects">Projetos</a>
-                    <a href="#contact">Contato</a>
+                    <Link
+                        activeClass="active"
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1500}>Home</Link>
+                    <Link
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1500}>Sobre</Link>
+                    <Link
+                        activeClass="active"
+                        to="tecnologies"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1500}>Tecnologias</Link>
+                    <Link
+                        activeClass="active"
+                        to="qualifications"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1500}>Qualificações</Link>
+                    <Link
+                        activeClass="active"
+                        to="projects"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1500}>Projetos</Link>
+                    <Link
+                        activeClass="active"
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={1500}>Contato
+                    </Link>
                 </nav>
             </HeaderDesktop>
         </>

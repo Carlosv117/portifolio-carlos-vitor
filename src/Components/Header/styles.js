@@ -6,6 +6,9 @@ export const HeaderMobile = styled.header`
     background-color: var(--Black-1);
     padding-right: 20px;
     height: 80px;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
 
     #logo{
         width: 80px;
@@ -93,6 +96,9 @@ export const HeaderDesktop = styled.header`
     justify-content: space-between;
     background-color: var(--Black-1);
     padding-right: 20px;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
 
     #logo{
         width: 80px;
@@ -111,7 +117,8 @@ export const HeaderDesktop = styled.header`
                 margin: 0 10px;
                 padding: 0px 15px;
                 font-size: 16px;
-            }
+                cursor: pointer;
+        }
             a:after{
                 content: "";
                 position: absolute;
