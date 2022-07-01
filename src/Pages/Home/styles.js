@@ -4,15 +4,16 @@ export const Main = styled.main`
     background-color: var(--Black-1);
     
     h1{
-        color: var(--Color-primary);
+        color: var(--White);
+        border-bottom: 2px solid var(--Color-primary);
         font-weight: bold;
         font-size: 26px;
         align-self: flex-start;
-        padding-left: 20px;
-        padding-bottom: 30px;
+        margin-left: 20px;
+        margin-bottom: 30px;
     }
 
-        #home{
+        .home{
 
             height: 600px;
             
@@ -91,9 +92,10 @@ export const Main = styled.main`
                 width: 100%;
                 max-width: 600px;
                 padding: 20px 0;
+                margin-bottom: 20px;
             }
 
-            #about{
+            .about{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -120,21 +122,23 @@ export const Main = styled.main`
                     max-width: 400px;
                     
                     h2{
-                        padding: 15px 0;
+                        padding: 25px 0;
+                        font-weight: 600;
+                        font-size: 22px;
                     }
                 }
 
             }
 
-            #tecnologies{
+            .tecnologies{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 padding: 20px 20px;
 
                 h1{
-                    padding-left: 0;
-                    padding-bottom: 30px;
+                    margin-left: 0;
+                    margin-bottom: 30px;
                 }
 
                 div{
@@ -169,7 +173,7 @@ export const Main = styled.main`
                 }
             }
 
-            #qualifications{
+            .qualifications{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -179,9 +183,50 @@ export const Main = styled.main`
                 }
             }
 
-            #projects{
+            .projects{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h1{
+
+                }
+            }
+        }
+
+        .contact{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1{
 
             }
+        }
 
+    .MuiInputLabel-root{
+        color: var(--White);
+    }
+    .MuiOutlinedInput-notchedOutline{
+        border-color: var(--White);
+    }
+    .css-6m3mwv-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.MuiLoadingButton-loading{
+        border: 1px solid var(--White);
+        width: 150px;
+        height: 40px;
+        margin: 10px;
+        font-size: 20px;
+        border-radius: 7px;
+        transition: 0.5s;
+        position: relative;
+    }
+
+    .MuiBox-root{
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .MuiFormControl-root, .MuiInputLabel-root, .MuiOutlinedInput-root{
+        width: 100%;
     }
 `

@@ -19,8 +19,7 @@ const Home = () => {
         <>
             <Header/>
             <Main>
-                
-                <section id="home">
+                <section className="home">
                         <video id="back" src={background} autoPlay loop muted/>
                         <div>
                             <div id="text">
@@ -58,7 +57,7 @@ const Home = () => {
                         </div>
                 </section>
                 <div>
-                    <section id="about">
+                    <section className="about">
                         <h1>Sobre</h1>
                         <div id="video">
                             <video id="back" src={space} autoPlay loop muted/>
@@ -73,7 +72,7 @@ const Home = () => {
                                 Quisque iaculis metus id</p>
                         </div>
                     </section>
-                    <section id="tecnologies">
+                    <section className="tecnologies">
                         <h1>Tecnologias</h1>
                         <div>
                             <figure>
@@ -100,16 +99,16 @@ const Home = () => {
                             <span>Docker</span>
                         </div>
                     </section>
-                    <section id="qualifications">
+                    <section className="qualifications">
                         <h1>Qualificações</h1>
                         <CarroselCertificate/>
                     </section>
-                    <section id="projects">
+                    <section className="projects">
                         <h1>Projetos</h1>
                         <CarroselProjects/>
                     </section>
                 </div>
-                <section id="contact">
+                <section className="contact">
                     <h1>Contato</h1>
                     <Contact/>
                 </section>
