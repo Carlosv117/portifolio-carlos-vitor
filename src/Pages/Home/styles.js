@@ -262,8 +262,7 @@ export const Main = styled.main`
     }
     .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
         color: var(--White);
-        width: 90%;
-        
+        width: 95%;
     }
 
     .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
@@ -273,6 +272,7 @@ export const Main = styled.main`
     .css-1x5jdmq{
         color: var(--White);
         -webkit-tap-highlight-color: var(--White);
+        width: 95%;
     }
 
     .css-13rlij2-MuiFormLabel-root-MuiInputLabel-root{
@@ -517,10 +517,6 @@ export const Main = styled.main`
                     }
                 }
             }
-        }
-
-        .contact, .contact video{ 
-            height: 980px;
         }
 
         #form{
