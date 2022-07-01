@@ -5,12 +5,14 @@ export const Main = styled.main`
     
     h1{
         color: var(--White);
-        border-bottom: 2px solid var(--Color-primary);
+        border-bottom: 5px solid var(--Color-primary);
+        border-radius: 4px 14px;
         font-weight: bold;
         font-size: 26px;
         align-self: flex-start;
         margin-left: 5%;
         margin-bottom: 30px;
+        padding: 0 10px;
     }
 
     .h1{
@@ -137,6 +139,30 @@ export const Main = styled.main`
 
                         p{
                             color: var(--White-1);
+                        }
+
+                        a{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid var(--White);
+                            background: var(--Color-primary);
+                            width: 150px;
+                            height: 40px;
+                            font-size: 20px;
+                            cursor: pointer;
+                            color: var(--White);
+                            transition: 0.5s;
+                            position: relative;
+                            overflow: hidden;
+                            border-radius: 7px;
+                            margin-top: 25px;
+                            text-decoration: none;
+                            :hover{
+                                background-color: transparent;
+                                color: var(--White);
+                                border: 1px solid var(--Color-primary);
+                            }
                         }
                     }
 

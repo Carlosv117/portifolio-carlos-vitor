@@ -73,6 +73,9 @@ const Home = () => {
                                     através disso, complementar o que venho aprendendo e evoluir 
                                     na empresa em que estiver atuando e contribuir o máximo possível. 
                                     Sou desenvolvedor Full-stack formado pela Kenzie Academy Brasil.</p>
+                                <a href="https://www.canva.com/design/DAE8lCysFog/U6IeAlvE7Z5q5SEjzu9wOA/view?utm_content=DAE8lCysFog&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+                                    Curriculo
+                                </a>
                             </div>
                         </div>
                     </section>
