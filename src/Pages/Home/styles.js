@@ -9,8 +9,12 @@ export const Main = styled.main`
         font-weight: bold;
         font-size: 26px;
         align-self: flex-start;
-        margin-left: 20px;
+        margin-left: 5%;
         margin-bottom: 30px;
+    }
+
+    .h1{
+        width: 100%;
     }
 
         .home{
@@ -35,6 +39,7 @@ export const Main = styled.main`
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                padding-top: 30px;
 
                 #text{
                     display: flex;
@@ -46,6 +51,7 @@ export const Main = styled.main`
         
                     h2{
                         font-size: 22px;
+                        padding-bottom: 12px;
                     }
         
                     span{
@@ -83,14 +89,13 @@ export const Main = styled.main`
 
         }
         div{
-
             display: flex;
             flex-direction: column;
             align-items: center;
 
             section{
                 width: 100%;
-                max-width: 600px;
+                /* max-width: 600px; */
                 padding: 20px 0;
                 margin-bottom: 20px;
             }
@@ -105,27 +110,36 @@ export const Main = styled.main`
                     padding-bottom: 0;
                 }
 
-                #video{
-                    padding: 20px 0;
-                    
-                    video{
-                        width: 100%;
-                        max-width: 400px;
-                    }
-                }
-
                 div{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    padding: 20px 20px;
-                    max-width: 400px;
-                    
-                    h2{
-                        padding: 25px 0;
-                        font-weight: 600;
-                        font-size: 22px;
+
+
+                    #video{
+                        padding: 20px 0;
+                        
+                        video{
+                            width: 100%;
+                            max-width: 400px;
+                        }
                     }
+
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 20px 20px;
+                        max-width: 400px;
+                        
+                        h2{
+                            padding: 25px 0;
+                            font-weight: 600;
+                            font-size: 22px;
+                        }
+
+                        p{
+                            color: var(--White-1);
+                        }
+                    }
+
                 }
 
             }
@@ -134,10 +148,15 @@ export const Main = styled.main`
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                padding: 20px 20px;
+                padding: 20px 0;
+
+                .h1{
+                    justify-content: flex-start;
+                    padding: 0;
+                }
 
                 h1{
-                    margin-left: 0;
+                    margin-left: 5%;
                     margin-bottom: 30px;
                 }
 
@@ -145,30 +164,39 @@ export const Main = styled.main`
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    padding: 0 20px;
                     width: 100%;
-                    background-color: var(--Grey-2);
-                    border-radius: 20px;
-                    margin-bottom: 20px;
-                    padding: 10px 0;
-                    max-width: 300px;
 
-                    figure{
-                        width: 170px;
-
-                        img{
-                            width: 100%;
-                        }
-                    }
-
-                    h3{
-                        font-weight: bold;
-                        font-size: 24px;
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 100%;
+                        background-color: var(--Grey-2);
+                        border-radius: 20px;
+                        margin-bottom: 20px;
                         padding: 10px 0;
-                    }
+                        max-width: 360px;
 
-                    span{
-                        font-size: 14px;
-                        padding: 3px 0;
+                        figure{
+                            width: 170px;
+
+                            img{
+                                width: 100%;
+                            }
+                        }
+
+                        h3{
+                            font-weight: bold;
+                            font-size: 24px;
+                            padding: 10px 0;
+                        }
+
+                        span{
+                            font-size: 14px;
+                            padding: 3px 0;
+                            color: var(--White-1);
+                        }
                     }
                 }
             }
@@ -178,8 +206,8 @@ export const Main = styled.main`
                 flex-direction: column;
                 align-items: center;
 
-                div{
-                    max-width: 600px;
+                .carousel-root{
+                    width: 90%;
                 }
             }
 
@@ -190,6 +218,10 @@ export const Main = styled.main`
 
                 h1{
 
+                }
+
+                .carousel-root{
+                    width: 90%;
                 }
             }
         }
@@ -240,5 +272,268 @@ export const Main = styled.main`
 
     .MuiFormControl-root, .MuiInputLabel-root, .MuiOutlinedInput-root{
         width: 100%;
+    }
+
+
+    @media (min-width: 840px) {
+
+        h1{
+            font-size: 30px;
+            margin-bottom: 60px;
+            margin-top: 30px;
+        }
+
+        .home{
+
+            div{
+                flex-direction: row;
+
+                #text, #phone{
+                    margin: 0 20px;
+                    padding: 0;
+                }
+
+                #text{
+                    width: 330px;
+
+                    h2{
+                        font-size: 26px;
+                    }
+
+                    span{
+                            font-size: 16px; 
+                        }
+                }
+
+                #phone{
+                    flex-direction: column;
+                }
+            }
+        }
+
+        div{
+
+            .about{
+                
+                div{
+                    flex-direction: row;
+
+                    div{
+                        margin: 0 15px;
+
+                        h2{
+                            font-size: 26px;
+                        }
+
+                        p{
+                            font-size: 16px; 
+                        }
+                    }
+                }
+            }
+
+            .tecnologies{
+
+                h1{
+                    margin-bottom: 60px;
+                }
+
+                div{
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    div{
+                        margin: 0 4%;
+                    }
+                }
+            }
+        }
+
+        .contact{
+            height: 700px;
+
+            video{
+                height: 700px;
+            }
+        }
+    }
+
+    @media (min-width: 1024px) {
+
+        .h1{
+            max-width: 1000px;
+        }
+
+        div{
+
+            .qualifications, .projects{
+
+                div{
+
+                    .carousel-root{
+                        max-width: 1000px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width: 1440px) {
+
+        .h1{
+            max-width: 1400px;
+            justify-content: flex-start;
+
+            h1{
+                font-size: 55px;
+            }
+        }
+
+        .home, .home video{
+            height: 750px;
+        }
+
+        .home{
+
+            div{
+
+                #text, #phone{
+                    margin: 0 120px;
+                }
+
+                #text{
+                    width: 430px;
+
+                    h2{
+                        font-size: 40px;
+                    }
+
+                    span{
+                        font-size: 24px;
+                    }
+                }
+
+                #phone{
+                    flex-direction: column;
+
+                    figure{
+
+                        img{
+                            width: 340px;
+                        }
+                    }
+
+                    div{
+                        figure{
+
+                            img{
+                                width: 60px;
+                            }
+                    }
+
+                    }
+                }
+            }
+        }
+
+        div{
+
+            .about{
+
+                .h1{
+                    justify-content: flex-start;
+                }
+
+                div{
+                    width: 100%;
+                    justify-content: center;
+
+                    #video{
+                        width: 100%;
+                            
+                        video{
+                            max-width: 750px;
+                        }
+                    }
+
+                    div{
+                        max-width: 750px;
+                        width: 90%;
+
+                        h2{
+                            font-size: 40px;
+                        }
+
+                        p{
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+
+            .tecnologies{
+
+                div{
+
+                    div{
+                        max-width: 570px;
+
+                        figure{
+                            width: 300px;
+                        }
+
+                        h3{
+                            font-size: 40px;
+                        }
+
+                        span{
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
+
+            .qualifications, .projects{
+
+                div{
+
+                    .carousel-root{
+                        max-width: 1400px;
+                    }
+                }
+            }
+        }
+
+        .contact, .contact video{ 
+            height: 980px;
+        }
+
+        .MuiBox-root{
+            max-width: 700px;
+
+            button{
+                width: 200px;
+                height: 50px;
+            }
+        }
+
+        .css-6m3mwv-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.MuiLoadingButton-loading{
+            width: 200px;
+            height: 50px;
+        }
+
+        .css-13rlij2-MuiFormLabel-root-MuiInputLabel-root, .css-rw1vm2-MuiInputBase-root-MuiOutlinedInput-root, .css-1xngoem-MuiFormLabel-root-MuiInputLabel-root{
+            font-size: 2rem;
+        }
+
+        .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+            padding: 30.5px 14px;
+        }
+
+        .css-13rlij2-MuiFormLabel-root-MuiInputLabel-root{
+            line-height: 2.1375em;
+        }
+
     }
 `

@@ -23,7 +23,9 @@ const Home = () => {
                         <video id="back" src={background} autoPlay loop muted/>
                         <div>
                             <div id="text">
-                                <h2>Carlos Vitor Cerqueira</h2>
+                                <div className="h1">
+                                    <h2>Carlos Vitor Cerqueira</h2>
+                                </div>
                                 <TypeIt
                                     options={{loop: true}}
                                     getBeforeInit={(instance) => {
@@ -58,58 +60,72 @@ const Home = () => {
                 </section>
                 <div>
                     <section className="about">
-                        <h1>Sobre</h1>
-                        <div id="video">
-                            <video id="back" src={space} autoPlay loop muted/>
+                        <div className="h1">
+                            <h1>Sobre</h1>
                         </div>
                         <div>
-                            <h2>Carlos Vitor Cerqueira</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Nulla lacinia mi sed scelerisque pharetra. Aliquam sit 
-                                amet enim quis turpis consectetur euismod. Fusce tincidunt 
-                                nulla at ex luctus, non interdum ex feugiat. Duis risus eros,
-                                efficitur sit amet erat vitae, hendrerit volutpat dui. 
-                                Quisque iaculis metus id</p>
+                            <div id="video">
+                                <video id="back" src={space} autoPlay loop muted/>
+                            </div>
+                            <div>
+                                <h2>Carlos Vitor Cerqueira</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Nulla lacinia mi sed scelerisque pharetra. Aliquam sit 
+                                    amet enim quis turpis consectetur euismod. Fusce tincidunt 
+                                    nulla at ex luctus, non interdum ex feugiat. Duis risus eros,
+                                    efficitur sit amet erat vitae, hendrerit volutpat dui. 
+                                    Quisque iaculis metus id</p>
+                            </div>
                         </div>
                     </section>
                     <section className="tecnologies">
-                        <h1>Tecnologias</h1>
-                        <div>
-                            <figure>
-                                <img src={front} alt=""/>
-                            </figure>
-                            <h3>Front-end</h3>
-                            <span>React</span>
-                            <span>Javascript</span>
-                            <span>Typescript</span>
-                            <span>API REST</span>
-                            <span>HTML5</span>
-                            <span>CSS3</span>
+                        <div className="h1">
+                            <h1>Tecnologias</h1>
                         </div>
                         <div>
-                            <figure>
-                                <img src={back} alt=""/>
-                            </figure>
-                            <h3>Back-end</h3>
-                            <span>Python</span>
-                            <span>Node</span>
-                            <span>Express</span>
-                            <span>Django</span>
-                            <span>PostgreSQL</span>
-                            <span>Docker</span>
+                            <div>
+                                <figure>
+                                    <img src={front} alt=""/>
+                                </figure>
+                                <h3>Front-end</h3>
+                                <span>React</span>
+                                <span>Javascript</span>
+                                <span>Typescript</span>
+                                <span>API REST</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src={back} alt=""/>
+                                </figure>
+                                <h3>Back-end</h3>
+                                <span>Python</span>
+                                <span>Node</span>
+                                <span>Express</span>
+                                <span>Django</span>
+                                <span>PostgreSQL</span>
+                                <span>Docker</span>
+                            </div>
                         </div>
                     </section>
                     <section className="qualifications">
-                        <h1>Qualificações</h1>
+                        <div className="h1">
+                            <h1>Qualificações</h1>
+                        </div>
                         <CarroselCertificate/>
                     </section>
                     <section className="projects">
-                        <h1>Projetos</h1>
+                        <div className="h1">
+                            <h1>Projetos</h1>
+                        </div>
                         <CarroselProjects/>
                     </section>
                 </div>
                 <section className="contact">
-                    <h1>Contato</h1>
+                    <div className="h1">
+                        <h1>Contato</h1>
+                    </div>
                     <video id="backContact" src={background} autoPlay loop muted/>
                     <Contact/>
                 </section>
