@@ -270,6 +270,15 @@ export const Main = styled.main`
         -webkit-tap-highlight-color: white
     }
 
+    .css-1x5jdmq{
+        color: var(--White);
+        -webkit-tap-highlight-color: var(--White);
+    }
+
+    .css-13rlij2-MuiFormLabel-root-MuiInputLabel-root{
+        top: 5px;
+    }
+
     .MuiBox-root{
         width: 100%;
         max-width: 400px;
@@ -391,7 +400,7 @@ export const Main = styled.main`
             justify-content: flex-start;
 
             h1{
-                font-size: 45px;
+                font-size: 40px;
             }
         }
 
@@ -458,7 +467,7 @@ export const Main = styled.main`
                         width: 100%;
                             
                         video{
-                            max-width: 750px;
+                            max-width: 600px;
                         }
                     }
 
@@ -467,11 +476,11 @@ export const Main = styled.main`
                         width: 90%;
 
                         h2{
-                            font-size: 40px;
+                            font-size: 35px;
                         }
 
                         p{
-                            font-size: 24px;
+                            font-size: 22px;
                         }
                     }
                 }
@@ -482,18 +491,18 @@ export const Main = styled.main`
                 div{
 
                     div{
-                        max-width: 570px;
+                        max-width: 480px;
 
                         figure{
-                            width: 300px;
+                            width: 250px;
                         }
 
                         h3{
-                            font-size: 40px;
+                            font-size: 30px;
                         }
 
                         span{
-                            font-size: 28px;
+                            font-size: 22px;
                         }
                     }
                 }
@@ -504,7 +513,7 @@ export const Main = styled.main`
                 div{
 
                     .carousel-root{
-                        max-width: 1400px;
+                        max-width: 1000px;
                     }
                 }
             }
@@ -529,7 +538,11 @@ export const Main = styled.main`
         }
 
         .css-13rlij2-MuiFormLabel-root-MuiInputLabel-root, .css-rw1vm2-MuiInputBase-root-MuiOutlinedInput-root, .css-1xngoem-MuiFormLabel-root-MuiInputLabel-root{
-            font-size: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .css-wioham, .css-76sab1{
+            font-size: 1.5rem;
         }
 
         .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
@@ -538,6 +551,10 @@ export const Main = styled.main`
 
         .css-13rlij2-MuiFormLabel-root-MuiInputLabel-root{
             line-height: 2.1375em;
+        }
+
+        .css-76sab1{
+            height: 2.1375em;
         }
 
     }
