@@ -7,7 +7,7 @@ export const FooteR = styled.footer`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
+    padding-top: 40px;
 
     #icons{
         display: flex;
@@ -33,5 +33,10 @@ export const FooteR = styled.footer`
         p{
             text-align: center;
         }
+    }
+
+    @media (min-width: 840px) {
+
+            padding-top: 0;
     }
 `
