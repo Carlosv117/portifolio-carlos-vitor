@@ -137,4 +137,19 @@ export const HeaderDesktop = styled.header`
     @media (min-width: 768px) {
         display: flex;
     }
+
+    @media (min-width: 1440px) {
+
+        #logo{
+            width: 130px;
+
+        }
+
+        nav{
+
+            a{
+                font-size: 22px;
+            }
+        }
+    }
 `
