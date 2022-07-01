@@ -40,10 +40,10 @@ export const HeaderMobile = styled.header`
         justify-content: center;
         flex-direction: column;
         background-color: var(--Black-1);
-        border-left: solid 2px var(--White);
-        border-top: solid 2px var(--White);
-        border-bottom: solid 2px var(--White);
-        border-radius: 230px 0px 0px 230px;
+        border-left: solid 2px var(--Color-primary);
+        border-top: solid 2px var(--Color-primary);
+        border-bottom: solid 2px var(--Color-primary);
+        border-radius: 100px 0px 0px 100px;
 
         nav{
             display: flex;
@@ -55,7 +55,6 @@ export const HeaderMobile = styled.header`
             a{
                 position: relative;
                 color: var(--White);
-                text-shadow: 4px 10px 13px var(--Color-primary);
                 text-decoration: none;
                 padding: 0px 5px;
                 font-size: 24px;
@@ -82,6 +81,20 @@ export const HeaderMobile = styled.header`
                 top: 1.5rem;
                 right: 1.5rem;
             }
+        }
+    }
+
+    @media (min-width: 425px) {
+        div{
+            left: 45%;
+            width: 55%;
+        }
+    }
+
+    @media (min-width: 565px) {
+        div{
+            left: 55%;
+            width: 45%;
         }
     }
 
