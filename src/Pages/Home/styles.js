@@ -286,30 +286,55 @@ export const Main = styled.main`
         transition: 0.5s;
         position: relative;
     }
+    .css-bezhnd{
+        border: 1px solid var(--White);
+        width: 150px;
+        height: 40px;
+        margin: 10px;
+        font-size: 20px;
+        border-radius: 7px;
+        transition: 0.5s;
+        position: relative;
+    }
+    .css-bezhnd.MuiLoadingButton-loading{
+        border: 1px solid var(--White);
+        width: 150px;
+        height: 40px;
+        margin: 10px;
+        font-size: 20px;
+        border-radius: 7px;
+        transition: 0.5s;
+        position: relative;
+    }
+    .MuiLoadingButton-root{
+        border: 1px solid var(--White);
+        width: 150px;
+        height: 40px;
+        margin: 10px;
+        font-size: 20px;
+        border-radius: 7px;
+        transition: 0.5s;
+        position: relative;
+    }
     .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
         color: var(--White);
         width: 95%;
     }
-
     .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
         -webkit-tap-highlight-color: white
     }
-
     .css-1x5jdmq{
         color: var(--White);
         -webkit-tap-highlight-color: var(--White);
         width: 95%;
     }
-
     .css-13rlij2-MuiFormLabel-root-MuiInputLabel-root{
         top: 5px;
     }
-
     .MuiBox-root{
         width: 100%;
         max-width: 400px;
     }
-
     .MuiFormControl-root, .MuiInputLabel-root, .MuiOutlinedInput-root{
         width: 100%;
     }
