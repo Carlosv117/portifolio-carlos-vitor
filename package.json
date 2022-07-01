@@ -18,6 +18,7 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.7",
     "react-toastify": "^9.0.5",
     "styled-components": "^5.3.5",
     "typeit-react": "^2.5.1-alpha.0",
