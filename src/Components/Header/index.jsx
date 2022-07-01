@@ -10,6 +10,11 @@ const Header = () => {
     const [menu, setMenu] = useState(false)
     const [menuExit, setMenuExit] = useState(true)
 
+    const menuClick = (setMenu, setMenuExit) => {
+        setMenu(false)
+        setMenuExit(true)
+    }
+
     return(
         <>
             <HeaderMobile>
@@ -43,7 +48,7 @@ const Header = () => {
                     animate={{ x: 0 ,opacity: 1 }}
                     exit={{ opacity: 0 }}
                     transition={{ duration: 0.7 }}>
-                        <figure onClick={() => setMenu(false)}>
+                        <figure onClick={() => menuClick(setMenu, setMenuExit)}>
                             <motion.img onClick={() => setMenuExit(true)} src={exit} alt="Menu"
                             initial={{ scale: 0 }}
                             animate={{ rotate: 180, scale: 1 }}
@@ -61,12 +66,12 @@ const Header = () => {
                         />
                         </figure>
                         <nav>
-                            <a href="#home">Home</a>
-                            <a href="#about">Sobre</a>
-                            <a href="#tecnologies">Tecnologias</a>
-                            <a href="#qualifications">Qualificações</a>
-                            <a href="#projects">Projetos</a>
-                            <a href="#contact">Contato</a>
+                            <a href="#home" onClick={() => menuClick(setMenu, setMenuExit)}>Home</a>
+                            <a href="#about" onClick={() => menuClick(setMenu, setMenuExit)}>Sobre</a>
+                            <a href="#tecnologies" onClick={() => menuClick(setMenu, setMenuExit)}>Tecnologias</a>
+                            <a href="#qualifications" onClick={() => menuClick(setMenu, setMenuExit)}>Qualificações</a>
+                            <a href="#projects" onClick={() => menuClick(setMenu, setMenuExit)}>Projetos</a>
+                            <a href="#contact" onClick={() => menuClick(setMenu, setMenuExit)}>Contato</a>
                         </nav>
                     </motion.div>
                 )}
