@@ -31,11 +31,11 @@ export const Contact = () => {
             ref={form}
             onSubmit = {sendEmail}
             sx={{ marginTop: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                <TextField label = 'Nome' name='name' margin = 'normal'></TextField>
-                <TextField label = 'Email' name='email' margin = 'normal'></TextField>
-                <TextField label = 'Telefone' name='phone' margin = 'normal'></TextField>
-                <TextField label = 'Assunto' name='assunto' margin = 'normal'></TextField>
-                <TextField label = 'Menssagem' name='message' margin = 'normal'></TextField>
+                <TextField label = 'Nome' name='name' margin = 'normal' color='error'></TextField>
+                <TextField label = 'Email' name='email' margin = 'normal' color='error'></TextField>
+                <TextField label = 'Telefone' name='phone' margin = 'normal' color='error'></TextField>
+                <TextField label = 'Assunto' name='assunto' margin = 'normal' color='error'></TextField>
+                <TextField label = 'Menssagem' name='message' margin = 'normal' color='error'></TextField>
                 {loading ? 
                 (
                     <Button type = 'submit' fullWidth variant='contained'>Enviar</Button>
