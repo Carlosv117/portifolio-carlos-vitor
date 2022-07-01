@@ -40,9 +40,9 @@ export const HeaderMobile = styled.header`
         justify-content: center;
         flex-direction: column;
         background-color: var(--Black-1);
-        border-left: solid 2px var(--Color-primary);
-        border-top: solid 2px var(--Color-primary);
-        border-bottom: solid 2px var(--Color-primary);
+        border-left: solid 2px var(--White);
+        border-top: solid 2px var(--White);
+        border-bottom: solid 2px var(--White);
         border-radius: 100px 0px 0px 100px;
 
         nav{
