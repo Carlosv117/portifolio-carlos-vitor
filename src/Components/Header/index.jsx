@@ -125,7 +125,15 @@ const Header = () => {
 
             <HeaderDesktop>
                 <figure id="logo">
-                    <img src={logo} alt=""/>
+                    <Link onClick={() => menuClick(setMenu, setMenuExit)}
+                    activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1500}>
+                        <img src={logo} alt=""/>
+                    </Link>
                 </figure>
                 <nav>
                     <Link

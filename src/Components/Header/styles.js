@@ -151,17 +151,23 @@ export const HeaderDesktop = styled.header`
         display: flex;
     }
 
+    @media (min-width: 1024px) {
+
+        padding-right: 40px;
+        padding-left: 20px;
+    }
+
     @media (min-width: 1440px) {
 
         #logo{
-            width: 130px;
+            width: 100px;
 
         }
 
         nav{
 
             a{
-                font-size: 22px;
+                font-size: 20px;
             }
         }
     }
