@@ -21,7 +21,7 @@ export default function CarroselProjects() {
         <div data-aos="flip-right">
             <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}>
                 <div>
-                    <a href="https://github.com/Carlosv117/ubeer" target="_blank" rel="noopener noreferrer">
+                    <a href="https://ubeer.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <img src={uBeer} alt="" />
                     </a>
                     <p className="legend">uBeer</p>
@@ -33,13 +33,13 @@ export default function CarroselProjects() {
                     <p className="legend">Onganizer Api</p>
                 </div>
                 <div>
-                    <a href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s2-kenzie-hub-carlosv117" target="_blank" rel="noopener noreferrer">
+                    <a href="https://react-entrega-s2-kenzie-hub-carlosv117.vercel.app/Home" target="_blank" rel="noopener noreferrer">
                         <img src={KenzieHub} alt="" />
                     </a>
                     <p className="legend">Kenzie Hub</p>
                 </div>
                 <div>
-                    <a href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-nu-kenzie-carlosv117" target="_blank" rel="noopener noreferrer">
+                    <a href="https://react-entrega-s1-nu-kenzie-carlosv117.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <img src={NuKenzie} alt="" />
                     </a>
                     <p className="legend">Nu Kenzie</p>
@@ -51,7 +51,7 @@ export default function CarroselProjects() {
                     <p className="legend">KMDB</p>
                 </div>
                 <div>
-                    <a href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-hamburgueria-da-kenzie-carlosv117" target="_blank" rel="noopener noreferrer">
+                    <a href="https://react-entrega-s1-hamburgueria-da-kenzie-carlosv117.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <img src={BurguerKenzie} alt="" />
                     </a>
                     <p className="legend">Burguer Kenzie</p>
