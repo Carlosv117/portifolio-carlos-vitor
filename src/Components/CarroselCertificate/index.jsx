@@ -12,7 +12,7 @@ export default function CarroselCertificate() {
     }, [])
     
     return (
-        <div data-aos="flip-left">
+        <div data-aos="zoom-in">
             <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}>
                 <div>
                     <img src={frontend} alt="" />

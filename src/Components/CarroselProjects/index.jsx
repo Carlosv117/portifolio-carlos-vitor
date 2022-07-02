@@ -18,7 +18,7 @@ export default function CarroselProjects() {
     }, [])
     
     return (
-        <div data-aos="flip-right">
+        <div data-aos="zoom-in">
             <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}>
                 <div>
                     <a href="https://ubeer.vercel.app/" target="_blank" rel="noopener noreferrer">

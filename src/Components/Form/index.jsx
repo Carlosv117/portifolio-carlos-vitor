@@ -32,7 +32,7 @@ export const Contact = () => {
 
     return (
 
-        <Container data-aos="flip-left">
+        <Container data-aos="zoom-in">
             <Box id='form' component = 'form'
             ref={form}
             onSubmit = {sendEmail}
