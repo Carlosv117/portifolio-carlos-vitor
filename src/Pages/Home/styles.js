@@ -328,8 +328,8 @@ export const Main = styled.main`
         -webkit-tap-highlight-color: var(--White);
         width: 95%;
     }
-    .css-13rlij2-MuiFormLabel-root-MuiInputLabel-root{
-        top: 5px;
+    .css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input{
+        color: var(--White);
     }
     .MuiBox-root{
         width: 100%;
