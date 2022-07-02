@@ -331,6 +331,9 @@ export const Main = styled.main`
         -webkit-tap-highlight-color: var(--White);
         width: 95%;
     }
+    .css-u36398{
+        color: var(--White);
+    }
     .css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input{
         color: var(--White);
     }
