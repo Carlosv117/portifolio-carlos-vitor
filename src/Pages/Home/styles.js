@@ -252,6 +252,10 @@ export const Main = styled.main`
             }
         }
 
+        .contact, .contact video{
+            height: 680px;
+        }
+
         .contact{
             display: flex;
             flex-direction: column;
@@ -265,7 +269,6 @@ export const Main = styled.main`
             video{
                 width: 100%;
                 position: absolute;
-                height: 600px;
                 object-fit: cover;
             }
         }
@@ -417,12 +420,8 @@ export const Main = styled.main`
             }
         }
 
-        .contact{
-            height: 700px;
-
-            video{
-                height: 700px;
-            }
+        .contact, .contact video{
+            height: 750px;
         }
     }
 
