@@ -80,7 +80,7 @@ const Home = () => {
                                     através disso, complementar o que venho aprendendo e evoluir 
                                     na empresa em que estiver atuando e contribuir o máximo possível. 
                                     Sou desenvolvedor Full-stack formado pela Kenzie Academy Brasil.</p>
-                                <a href="https://drive.google.com/file/d/1DACgc-U9JKfuGfFdbN-aV-u2-rpT1Dly/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+                                <a href="https://drive.google.com/file/d/1g1MA5Hm6AD3J7koxKlKQypQ49JkwcuDO/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                     Curriculo
                                 </a>
                             </div>
