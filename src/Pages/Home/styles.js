@@ -441,7 +441,7 @@ export const Main = styled.main`
                 div{
 
                     .carousel-root{
-                        max-width: 1000px;
+                        max-width: 1020px;
                     }
                 }
             }
@@ -568,7 +568,7 @@ export const Main = styled.main`
                 div{
 
                     .carousel-root{
-                        max-width: 1000px;
+                        max-width: 1200px;
                     }
                 }
             }
