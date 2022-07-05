@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import Header from "../../Components/Header"
 import { Main } from "./styles"
 import TypeIt from "typeit-react"
@@ -11,16 +11,21 @@ import front from "../../img/icon/front.png"
 import back from "../../img/icon/back.png"
 import Footer from "../../Components/Footer"
 import CarroselCertificate from "../../Components/CarroselCertificate"
-import CarroselProjects from "../../Components/CarroselProjects"
 import { Contact } from "../../Components/Form"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import Projects from "../../Components/ListProjects"
+import { listProjects } from "../../db"
 
 const Home = () => {
 
+    const [list, setList] = useState([])
+
     useEffect(() => {
         Aos.init({duration: 2000})
+        setList(listProjects)
     }, [])
+
     
     return(
         <>
@@ -127,7 +132,7 @@ const Home = () => {
                         <div className="h1">
                             <h1>Projetos</h1>
                         </div>
-                        <CarroselProjects/>
+                        <Projects list={list}/>
                     </section>
                 </div>
                 <section className="contact">
