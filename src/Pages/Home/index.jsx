@@ -53,17 +53,17 @@ const Home = () => {
                             </div>
                             <div id="phone" data-aos="fade-up">
                                 <figure>
-                                    <img src={cel} alt=""/>
+                                    <img src={cel} alt="icon phone"/>
                                 </figure>
                                 <div>
                                     <figure>
                                         <a href="https://github.com/Carlosv117" rel="noreferrer" target="_blank">
-                                            <img src={github} alt=""/>
+                                            <img src={github} alt="icon github"/>
                                         </a>
                                     </figure>
                                     <figure>
                                         <a href="https://www.linkedin.com/in/carlosvitorcerqueira" rel="noreferrer" target="_blank">
-                                            <img src={linkedin} alt=""/>
+                                            <img src={linkedin} alt="icon linkedin"/>
                                         </a>
                                     </figure>
                                 </div>
@@ -98,7 +98,7 @@ const Home = () => {
                         <div>
                             <div data-aos="flip-right">
                                 <figure>
-                                    <img src={front} alt=""/>
+                                    <img src={front} alt="icon front-end"/>
                                 </figure>
                                 <h3>Front-end</h3>
                                 <span>React</span>
@@ -110,7 +110,7 @@ const Home = () => {
                             </div>
                             <div data-aos="flip-left">
                                 <figure>
-                                    <img src={back} alt=""/>
+                                    <img src={back} alt="icon back-end"/>
                                 </figure>
                                 <h3>Back-end</h3>
                                 <span>Python</span>

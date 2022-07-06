@@ -28,13 +28,13 @@ const Header = () => {
                     smooth={true}
                     offset={-70}
                     duration={1500}>
-                        <img src={logo} alt=""/>
+                        <img src={logo} alt="logo imagem"/>
                     </Link>
                 </figure>
 
                 {menuExit && (
                     <figure onClick={() => setMenu(true)}>
-                        <motion.img onClick={() => setMenuExit(false)} src={hamburguerMenu} alt=""
+                        <motion.img onClick={() => setMenuExit(false)} src={hamburguerMenu} alt="menu"
                         initial={{ scale: 0 }}
                         animate={{ rotate: 180, scale: 1 }}
                         transition={{
@@ -132,7 +132,7 @@ const Header = () => {
                     smooth={true}
                     offset={-70}
                     duration={1500}>
-                        <img src={logo} alt=""/>
+                        <img src={logo} alt="logo"/>
                     </Link>
                 </figure>
                 <nav>

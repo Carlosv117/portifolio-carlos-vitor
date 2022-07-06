@@ -9,13 +9,13 @@ const Footer = () => {
             <div id="icons">
                 <figure>
                     <a href="https://github.com/Carlosv117" target="_blank" rel="noopener noreferrer">
-                        <img src={github} alt=""/>
+                        <img src={github} alt="icon github"/>
                     </a>
                 </figure>
                 <h2>&lt;Carlos/Dev&gt;</h2>
                 <figure>
                     <a href="https://www.linkedin.com/in/carlosvitorcerqueira" target="_blank" rel="noopener noreferrer">
-                        <img src={linkedin} alt=""/>
+                        <img src={linkedin} alt="icon linkedin"/>
                     </a>
                 </figure>
             </div>
