@@ -97,7 +97,6 @@ export const Main = styled.main`
 
             section{
                 width: 100%;
-                /* max-width: 600px; */
                 padding: 20px 0;
                 margin-bottom: 20px;
             }

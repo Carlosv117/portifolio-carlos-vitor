@@ -18,6 +18,7 @@ export const UL = styled.ul`
             height: 326px;
             margin-left: 12px;
             width: 255px;
+            transition: 1s;
         
             figure{
                 align-items: center;
@@ -33,6 +34,7 @@ export const UL = styled.ul`
                     height: 100%;
                     width: 100%;
                     border: solid 3px var(--Color-primary);
+                    transition: 1s;
                 }
             }
 
@@ -54,6 +56,7 @@ export const UL = styled.ul`
                     color: var(--White);
                     border: solid 2px var(--Color-primary);
                     border-radius: 15px;
+                    transition: 1s;
                 }
 
                 p{
@@ -70,13 +73,12 @@ export const UL = styled.ul`
             }
         }
         li:hover{
-            /* background-color: var(--White-1); */
             border: 5px solid var(--White-1);
 
             figure{
 
                 img{
-                    border: none;
+                    border: solid 3px var(--Grey-2);
                 }
             }
 
