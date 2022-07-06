@@ -95,6 +95,24 @@ span {
     font-weight: 400;
     font-size: 12px;
 }
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: var(--Grey-2);
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--Color-primary);
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--Color-primary-focus);
+}
+::-webkit-scrollbar-corner {
+    background-color: var(--Black-1);
+}
 `;
 
 export default GlobalStyle;

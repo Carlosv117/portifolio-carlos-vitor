@@ -345,7 +345,6 @@ export const Main = styled.main`
         width: 100%;
     }
 
-
     @media (min-width: 840px) {
 
         h1{
