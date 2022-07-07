@@ -270,79 +270,72 @@ export const Main = styled.main`
                 position: absolute;
                 object-fit: cover;
             }
+
+            div{
+                
+                #form{
+                    width: 100%;
+                    max-width: 400px;
+            
+                    .Mui-focused{
+                            color: var(--Color-primary);
+                            border-color: var(--Color-primary);
+                        }
+            
+                    div{
+                        width: 100%;
+            
+                        label{
+                            width: 100%;
+                            color: var(--White);
+            
+                            span{
+                                color: var(--Color-primary);
+                            } 
+                        }
+            
+                        div{
+                            width: 100%;
+                            
+                            input{
+                                box-shadow: none;
+                                color: var(--White);
+                                width: 95%;
+                            }
+            
+                            textarea{
+                                color: var(--White);
+                            }
+            
+                            fieldset{
+                                border-color: var(--White);
+                            }
+            
+                            fieldset:hover{
+                                border-color: var(--White-1);
+                            }
+            
+                            fieldset:focus{
+                                border-color: var(--Color-primary);
+                            }
+                        }
+                    }
+            
+                    button{
+                        border: 1px solid var(--White);
+                        width: 150px;
+                        height: 40px;
+                        margin: 10px;
+                        font-size: 20px;
+                        border-radius: 7px;
+                        transition: 0.5s;
+                        position: relative;
+                    }
+            
+                }
+            }
         }
 
-    .MuiInputLabel-root{
-        color: var(--White);
-    }
-    .MuiOutlinedInput-notchedOutline{
-        border-color: var(--White);
-    }
-    .css-6m3mwv-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.MuiLoadingButton-loading{
-        border: 1px solid var(--White);
-        width: 150px;
-        height: 40px;
-        margin: 10px;
-        font-size: 20px;
-        border-radius: 7px;
-        transition: 0.5s;
-        position: relative;
-    }
-    .css-bezhnd{
-        border: 1px solid var(--White);
-        width: 150px;
-        height: 40px;
-        margin: 10px;
-        font-size: 20px;
-        border-radius: 7px;
-        transition: 0.5s;
-        position: relative;
-    }
-    .css-bezhnd.MuiLoadingButton-loading{
-        border: 1px solid var(--White);
-        width: 150px;
-        height: 40px;
-        margin: 10px;
-        font-size: 20px;
-        border-radius: 7px;
-        transition: 0.5s;
-        position: relative;
-    }
-    .MuiLoadingButton-root{
-        border: 1px solid var(--White);
-        width: 150px;
-        height: 40px;
-        margin: 10px;
-        font-size: 20px;
-        border-radius: 7px;
-        transition: 0.5s;
-        position: relative;
-    }
-    .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
-        color: var(--White);
-        width: 95%;
-    }
-    .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
-        -webkit-tap-highlight-color: white
-    }
-    .css-1x5jdmq{
-        color: var(--White);
-        -webkit-tap-highlight-color: var(--White);
-        width: 95%;
-    }
-    .css-u36398{
-        color: var(--White);
-    }
-    .css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input{
-        color: var(--White);
-    }
-    .MuiBox-root{
-        width: 100%;
-        max-width: 400px;
-    }
-    .MuiFormControl-root, .MuiInputLabel-root, .MuiOutlinedInput-root{
-        width: 100%;
-    }
 
     @media (min-width: 840px) {
 
@@ -572,14 +565,20 @@ export const Main = styled.main`
             }
         }
 
-        #form{
-            max-width: 700px;
+        .contact{
 
-            .MuiBox-root{
+            div{
 
-                button{
-                    width: 200px;
-                    height: 50px;
+                #form{
+                    max-width: 700px;
+        
+                    .MuiBox-root{
+        
+                        button{
+                            width: 200px;
+                            height: 50px;
+                        }
+                    }
                 }
             }
         }
