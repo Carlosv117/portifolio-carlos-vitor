@@ -277,47 +277,20 @@ export const Main = styled.main`
                     width: 100%;
                     max-width: 400px;
             
-                    .Mui-focused{
-                            color: var(--Color-primary);
-                            border-color: var(--Color-primary);
-                        }
-            
                     div{
                         width: 100%;
             
                         label{
                             width: 100%;
-                            color: var(--White);
-            
-                            span{
-                                color: var(--Color-primary);
-                            } 
                         }
             
                         div{
                             width: 100%;
                             
                             input{
-                                box-shadow: none;
-                                color: var(--White);
                                 width: 95%;
                             }
             
-                            textarea{
-                                color: var(--White);
-                            }
-            
-                            fieldset{
-                                border-color: var(--White);
-                            }
-            
-                            fieldset:hover{
-                                border-color: var(--White-1);
-                            }
-            
-                            fieldset:focus{
-                                border-color: var(--Color-primary);
-                            }
                         }
                     }
             

@@ -4,6 +4,7 @@ import { toast } from "react-toastify";
 import { Button } from './styles';
 import { Box, Container, TextField } from '@mui/material';
 import { LoadingButton } from '@mui/lab';
+import { styled } from '@mui/material/styles';
 import Aos from "aos"
 import "aos/dist/aos.css"
 
@@ -30,6 +31,32 @@ export const Contact = () => {
         setLoading(true)
     };
 
+    const CssTextField = styled(TextField)({
+        '& input, textarea': {
+          color: 'white',
+        },
+        '& label': {
+          color: 'white',
+        },
+        '& label.Mui-focused': {
+          color: 'white',
+        },
+        '& .MuiInput-underline:after': {
+          borderBottomColor: 'white',
+        },
+        '& .MuiOutlinedInput-root': {
+          '& fieldset': {
+            borderColor: 'white',
+          },
+          '&:hover fieldset': {
+            borderColor: 'grey',
+          },
+          '&.Mui-focused fieldset': {
+            borderColor: 'red',
+          },
+        },
+      });
+
     return (
 
         <Container data-aos="zoom-in">
@@ -37,11 +64,11 @@ export const Contact = () => {
             ref={form}
             onSubmit = {sendEmail}
             sx={{ marginTop: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                <TextField label = 'Nome' name='name' margin = 'normal' color='error' required autoComplete="new-password"></TextField>
-                <TextField label = 'Email' name='email' margin = 'normal' color='error' type="email" required autoComplete="new-password"></TextField>
-                <TextField label = 'Telefone' name='phone' margin = 'normal' color='error' type="tel" required autoComplete="new-password"></TextField>
-                <TextField label = 'Assunto' name='assunto' margin = 'normal' color='error' required autoComplete="new-password"></TextField>
-                <TextField label = 'Menssagem' name='message' margin = 'normal' color='error' multiline rows={4} required autoComplete="new-password"></TextField>
+                <CssTextField label = 'Nome' name='name' margin = 'normal' required autoComplete="new-password"></CssTextField>
+                <CssTextField label = 'Email' name='email' margin = 'normal' type="email" required autoComplete="new-password"></CssTextField>
+                <CssTextField label = 'Telefone' name='phone' margin = 'normal' type="tel" required autoComplete="new-password"></CssTextField>
+                <CssTextField label = 'Assunto' name='assunto' margin = 'normal' required autoComplete="new-password"></CssTextField>
+                <CssTextField label = 'Menssagem' name='message' margin = 'normal' multiline rows={4} required autoComplete="new-password"></CssTextField>
                 {loading ? 
                 (
                     <Button type = 'submit' fullWidth variant='contained'>Enviar</Button>
