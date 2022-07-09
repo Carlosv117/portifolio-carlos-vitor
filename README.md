@@ -16,25 +16,11 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/Carlosv117/portifolio-carlos-vitor?color=56BEB8">
 
   <img alt="License" src="https://img.shields.io/github/license/Carlosv117/portifolio-carlos-vitor?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/Carlosv117/portifolio-carlos-vitor?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/Carlosv117/portifolio-carlos-vitor?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/Carlosv117/portifolio-carlos-vitor?color=56BEB8" /> -->
 </p>
-
-Status
-
-<h4 align="center"> 
-	🚧  Portifolio Carlos Vitor 🚀 Under construction...  🚧
-</h4> 
 
 <hr>
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
@@ -44,25 +30,16 @@ Status
 
 <br>
 
-## :dart: About ##
-
-Describe your project
-
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
-
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://www.linkedin.com/posts/carlosvitorcerqueira_reactjs-portfolio-activity-6949088758126264320-8Iyg?utm_source=linkedin_share&utm_medium=member_desktop_web)
+- [JavaScript](https://www.linkedin.com/posts/carlosvitorcerqueira_reactjs-portfolio-activity-6949088758126264320-8Iyg?utm_source=linkedin_share&utm_medium=member_desktop_web)
+- [FramerMotion](https://www.linkedin.com/posts/carlosvitorcerqueira_reactjs-portfolio-activity-6949088758126264320-8Iyg?utm_source=linkedin_share&utm_medium=member_desktop_web)
+- [EmailJs](https://www.linkedin.com/posts/carlosvitorcerqueira_reactjs-portfolio-activity-6949088758126264320-8Iyg?utm_source=linkedin_share&utm_medium=member_desktop_web)
+- [StyledComponents](https://www.linkedin.com/posts/carlosvitorcerqueira_reactjs-portfolio-activity-6949088758126264320-8Iyg?utm_source=linkedin_share&utm_medium=member_desktop_web)
+- [Toastify](https://www.linkedin.com/posts/carlosvitorcerqueira_reactjs-portfolio-activity-6949088758126264320-8Iyg?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 ## :white_check_mark: Requirements ##
 
