@@ -68,7 +68,7 @@ export const Contact = () => {
                 <CssTextField label = 'Email' name='email' margin = 'normal' type="email" required autoComplete="new-password"></CssTextField>
                 <CssTextField label = 'Telefone' name='phone' margin = 'normal' type="tel" required autoComplete="new-password"></CssTextField>
                 <CssTextField label = 'Assunto' name='assunto' margin = 'normal' required autoComplete="new-password"></CssTextField>
-                <CssTextField label = 'Menssagem' name='message' margin = 'normal' multiline rows={4} required autoComplete="new-password"></CssTextField>
+                <CssTextField label = 'Mensagem' name='message' margin = 'normal' multiline rows={4} required autoComplete="new-password"></CssTextField>
                 {loading ? 
                 (
                     <Button type = 'submit' fullWidth variant='contained'>Enviar</Button>
