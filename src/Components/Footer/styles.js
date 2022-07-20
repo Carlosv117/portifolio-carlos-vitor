@@ -7,6 +7,8 @@ export const FooteR = styled.footer`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    width: 100%;
 
     #icons{
         display: flex;

@@ -15,6 +15,10 @@ export const Main = styled.main`
         padding: 0 10px;
     }
 
+    section{
+        z-index: 0;
+    }
+
     .h1{
         width: 100%;
     }
@@ -120,6 +124,7 @@ export const Main = styled.main`
                         video{
                             width: 100%;
                             max-width: 400px;
+                            border-radius: 300px;
                         }
                     }
 
