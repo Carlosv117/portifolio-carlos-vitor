@@ -3,19 +3,13 @@
 
 <head>
   <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/Logo512x512.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="edson iOS">
-  <!-- <meta name="theme-color" content="#f9f9f9"> -->
-  <link rel="canonical" href="https://portifolio-carlos-vitor.vercel.app/">
-  <link rel="icon" href="%PUBLIC_URL%/Logo.png" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/Logo192x192.png" />
   <script src="https://unpkg.com/typeit@8.6.0/dist/index.umd.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  src\img\logos\Logo.png
   <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -40,21 +34,6 @@
   <script>
     AOS.init();
   </script>
-  <script>
-    if ("serviceWorker" in navigator) {
-     if (navigator.serviceWorker.controller) {
-     console.log("[PWA Builder] active service worker found, no need to register");
-     } else {
-     navigator.serviceWorker
-     .register("pwabuilder-sw.js", {
-     scope: "./"
-     })
-     .then(function (reg) {
-     console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-     });
-     }
-    }
-    </script>
 </body>
 
 </html>
